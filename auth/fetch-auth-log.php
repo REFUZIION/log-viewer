@@ -1,6 +1,6 @@
 <?php
 // Your log file here:
-$logFile = '/var/log/auth.log';
+$logFile = '../example.log';
 $logData = file_get_contents($logFile);
 function replaceIPWithLink($matches): string
 {

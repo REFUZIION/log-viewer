@@ -8,7 +8,7 @@
 </head>
 <body class="bg-gray-100 p-4">
 <div class="container mx-auto bg-white p-4 rounded shadow">
-    <h1 class="text-2xl font-bold mb-4">Log Viewer Dashboard</h1>
+    <h1 class="text-2xl font-bold mb-4">Log Viewer</h1>
     <div class="mb-4">
         <label for="keyword" class="block font-semibold">Filter by Keyword:</label>
         <input type="text" id="keyword" class="w-full border rounded p-2" placeholder="Enter a keyword" onkeyup="fetchLogData()">
